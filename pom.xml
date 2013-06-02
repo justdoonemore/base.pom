@@ -3,14 +3,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.jdom</groupId>
 	<artifactId>base.pom</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<packaging>pom</packaging>
 
 	<properties>
 		<commons.lang3.version>3.1</commons.lang3.version>
 		<commons.io.version>2.1</commons.io.version>
 		<commons.httpclient.version>3.1</commons.httpclient.version>
-		<guava.version>14.0-rc1</guava.version>
+		<guava.version>14.0.1</guava.version>
 		<log4j.version>1.2.16</log4j.version>
 		<jcip.annotations.version>1.0</jcip.annotations.version>
 		<javax.mail.version>1.4.4</javax.mail.version>
@@ -22,7 +22,7 @@
 		<!-- Homegrown utility project versions -->
 		<util.log.api.version>0.0.4</util.log.api.version>
 		<util.log.log4j.version>0.0.4</util.log.log4j.version>
-		<util.lang.version>0.0.3</util.lang.version>
+		<util.lang.version>0.0.4</util.lang.version>
 		<util.junit.version>0.0.2</util.junit.version>
 		<util.io.version>0.0.5</util.io.version>
 		<util.time.version>0.0.6</util.time.version>
