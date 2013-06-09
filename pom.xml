@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.jdom</groupId>
 	<artifactId>base.pom</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -17,6 +17,7 @@
 		<jibx.version>1.2.3</jibx.version>
 		<org.springframework.version>3.1.2.RELEASE</org.springframework.version>
 		<mysql.version>5.1.22</mysql.version>
+		<sqlite-jdbc.version>3.7.2</sqlite-jdbc.version>
 		<org.hibernate.version>4.1.9.Final</org.hibernate.version>
 		<org.hibernate.javax.persistence.version>1.0.1.Final</org.hibernate.javax.persistence.version>
 		<!-- Homegrown utility project versions -->
@@ -27,7 +28,7 @@
 		<util.io.version>0.0.5</util.io.version>
 		<util.time.version>0.0.6</util.time.version>
 		<!-- Test Dependency versions -->
-		<junit.version>4.10</junit.version>
+		<junit.version>4.11</junit.version>
 		<powermock.version>1.5</powermock.version>
 		<hsqldb.version>2.2.8</hsqldb.version>
 		<!-- Plugins and miscellaneous versions -->
@@ -215,6 +216,11 @@
 				<groupId>mysql</groupId>
 				<artifactId>mysql-connector-java</artifactId>
 				<version>${mysql.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.xerial</groupId>
+				<artifactId>sqlite-jdbc</artifactId>
+				<version>${sqlite-jdbc.version}</version>
 			</dependency>
 
 			<!-- Homegrown utility projects -->
